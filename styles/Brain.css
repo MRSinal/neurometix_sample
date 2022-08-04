@@ -1,0 +1,36 @@
+.canvas {
+    width: auto;
+    height: 87vh;
+    background:  black;
+    /*background: #272727;*/
+}
+.canv{
+    width: auto;
+    height: 80vh;
+    margin-top: 12rem;
+}
+#footer{
+    height: 12vh;
+    background-color: black;
+}
+#about{
+    height: 72vh;
+}
+.about{
+    animation: transitionIn 2s;
+}
+.scroll{
+    overflow-y: scroll;
+}
+
+
+
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
